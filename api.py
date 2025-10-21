@@ -4,12 +4,21 @@ import pickle
 import numpy as np
 import re
 from typing import Dict, Any
+from fastapi.middleware.cors import CORSMiddleware
 import os
+
 
 app = FastAPI(
     title="Spam Email Detection API",
     description="A simple API for detecting spam emails using Naive Bayes classifier",
     version="1.0.0"
+)
+origins = ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_methods="*",
+    allow_headers="*"
 )
 
 model_data = None

@@ -41,8 +41,6 @@ Expected format: CSV file with `Category` and `Message` columns.
 spam-detection/
 ├── spam-detection.ipynb      # Complete ML pipeline with explanations
 ├── api.py                    # FastAPI REST API implementation
-├── test_api.py               # API testing and validation scripts
-├── start_api.sh              # Quick start script for API server
 ├── requirements.txt          # Python dependencies
 ├── data/
 │   └── email.csv             # Training dataset (download from Kaggle)
