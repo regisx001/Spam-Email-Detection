@@ -125,7 +125,7 @@
 	<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
 		<!-- Header -->
 		<header class="mb-12 text-center">
-			<h1 class="mb-3 mt-6 text-5xl font-bold tracking-tight">Email Spam Detector</h1>
+			<h1 class="tinos mb-3 mt-6 text-5xl font-bold tracking-tight">Email Spam Detector</h1>
 			<p class="text-muted-foreground mx-auto max-w-2xl text-lg">
 				Analyze email content in real-time using our Naive Bayes classifier trained on thousands of
 				messages
@@ -273,7 +273,7 @@
 					<Card.Header>
 						<div class="flex items-center justify-between">
 							<div>
-								<Card.Title class="text-xl">Analyze Email</Card.Title>
+								<Card.Title class="tinos text-xl">Analyze Email</Card.Title>
 								<Card.Description class="mt-1">
 									Paste or type an email message to check if it's spam
 								</Card.Description>
@@ -384,7 +384,7 @@
 			<div class="lg:col-span-1">
 				<Card.Root>
 					<Card.Header>
-						<Card.Title class="text-lg">Quick Examples</Card.Title>
+						<Card.Title class="tinos text-lg">Quick Examples</Card.Title>
 						<Card.Description>Click to load sample emails</Card.Description>
 					</Card.Header>
 					<Card.Content class="space-y-3">
