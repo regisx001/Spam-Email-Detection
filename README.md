@@ -5,7 +5,9 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org)
 
-<img width="1906" height="900" alt="Screenshot from 2025-10-21 22-55-53" src="https://github.com/user-attachments/assets/78badcbc-4b8f-4897-8fb8-6bbbb7a9b874" />
+<img width="1906" height="877" alt="Screenshot from 2025-10-21 23-02-13" src="https://github.com/user-attachments/assets/8c5a41d8-1d33-4e8e-ac4a-a2056112185f" />
+
+
 A comprehensive spam email detection system built with **Multinomial Naive Bayes** classifier, featuring both interactive Jupyter notebook implementation and production-ready REST API. This project demonstrates the complete machine learning pipeline from data preprocessing to model deployment.
 
 
