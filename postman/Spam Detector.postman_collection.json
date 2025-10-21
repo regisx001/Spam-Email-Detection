@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "2ec5a9a3-d8ba-4009-836e-9879b6a888ad",
+		"name": "Spam Detector",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40694421"
+	},
+	"item": [
+		{
+			"name": "Docs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8000"
+			},
+			"response": []
+		},
+		{
+			"name": "Predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\":\"As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8000/predict"
+			},
+			"response": []
+		},
+		{
+			"name": "Health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/health"
+			},
+			"response": []
+		},
+		{
+			"name": "Model Information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/model-info"
+			},
+			"response": []
+		}
+	]
+}
