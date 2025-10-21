@@ -84,7 +84,7 @@ spam-detection/
 3. **Start API Server**
 
    ```bash
-   ./start_api.sh
+   python api.py
    # Or manually: uvicorn api:app --reload --host 0.0.0.0 --port 8000
    ```
 
